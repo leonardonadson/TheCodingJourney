@@ -12,7 +12,7 @@
   --color-dark2: #999999;
 
   /* Definindo a configuração do container */
-  --container-center: true;
+  --container-center-default: true;
   --container-padding-default: 1rem;
   --container-padding-sm: 2rem;
   --container-padding-lg: 4rem;
@@ -26,5 +26,15 @@
         hover:shadow-[0px_10px_8px_-7px_#ffd978] py-2 px-6;
 
     }
+}
+
+@layer utilities{
+  .drop-shadow{
+    filter: drop-shadow(6px 8px 10px rgba(0, 0, 0, 0.5));
+  }
+  .container{
+    margin: 0 auto;
+    padding: var(--container-padding-default);
+  }
 }
 
