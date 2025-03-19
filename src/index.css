@@ -12,7 +12,7 @@
   --color-dark2: #999999;
 
   /* Definindo a configuração do container */
-  --container-center-default: true;
+  --container-center: true;
   --container-padding-default: 1rem;
   --container-padding-sm: 2rem;
   --container-padding-lg: 4rem;

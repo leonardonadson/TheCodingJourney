@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import { IoIosArrowRoundForward } from 'react-icons/io'
 import Blob from "../../assets/blob.svg"
@@ -42,7 +41,7 @@ const Hero = () => {
                 <motion.div variants={FadeUp(0.8)} initial="initial" animate="animate" className="flex justify-center md:justify-start">
                     <button className='primary-btn flex items-center gap-2 group'>
                         Get Started
-                        <IoIosArrowRoundForward className='text-xl group-hover:translate-x-2 group-hover:translate-x-2 group-hover:rotate-45 duration-300:'/>
+                        <IoIosArrowRoundForward className='text-xl group-hover:translate-x-2 group-hover:rotate-45 duration-300:'/>
                     </button>
                 </motion.div>
             </div>
