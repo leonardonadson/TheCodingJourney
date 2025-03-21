@@ -1,4 +1,3 @@
-import React from "react";
 import BannerPng from "../../assets/banner.png";
 import { motion } from "framer-motion";
 
